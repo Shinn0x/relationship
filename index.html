@@ -2,204 +2,132 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Shinn | Cloud & DevOps Engineer</title>
+<title>Shinn | Cloud & DevOps Portfolio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Google Font: Roboto -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f7fa;
-    color: #111;
-    line-height: 1.6;
-}
+/* Reset & Base */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:'Roboto', sans-serif; background:#f5f7fa; color:#111; line-height:1.6;}
+a {text-decoration:none;}
 
 /* NAVBAR */
 nav {
-    background: #0f172a;
-    padding: 15px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background:#0f172a; color:white; padding:15px 40px;
+  display:flex; justify-content:space-between; align-items:center;
 }
-
-nav h1 {
-    color: white;
-    font-size: 20px;
-}
-
-nav a {
-    color: #1d4ed8;
-    text-decoration: none;
-    font-weight: 500;
-}
+nav h1 {font-size:20px; font-weight:700;}
 
 /* HERO */
 .hero {
-    background: linear-gradient(to right, #0f172a, #1d4ed8);
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
+  background: linear-gradient(135deg, #0f172a, #1d4ed8);
+  color:white; text-align:center; padding:100px 20px;
 }
-
-.hero h2 {
-    font-size: 42px;
-    margin-bottom: 15px;
-}
-
-.hero p {
-    font-size: 18px;
-    max-width: 700px;
-    margin: auto;
-    opacity: 0.9;
-}
+.hero h2 {font-size:42px; margin-bottom:15px;}
+.hero p {font-size:18px; max-width:700px; margin:auto; opacity:0.9;}
 
 /* SECTION */
-.section {
-    max-width: 1100px;
-    margin: 80px auto;
-    padding: 0 20px;
-}
-
-.section h3 {
-    color: #1d4ed8;
-    margin-bottom: 25px;
-    font-size: 28px;
-}
+.section {max-width:1100px; margin:80px auto; padding:0 20px;}
+.section h3 {color:#1d4ed8; font-size:28px; margin-bottom:30px;}
 
 /* CARD GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-}
-
+.grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:30px;}
 .card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-    transition: 0.3s;
+  background:white; padding:30px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.05);
+  transition:0.3s;
 }
+.card:hover {transform:translateY(-5px);}
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-/* SKILLS */
+/* SKILLS BADGES */
 .skills span {
-    display: inline-block;
-    background: #1d4ed8;
-    color: white;
-    padding: 8px 14px;
-    border-radius: 20px;
-    font-size: 14px;
-    margin: 6px 6px 0 0;
+  display:inline-block; background:#1d4ed8; color:white; padding:8px 14px;
+  border-radius:20px; font-size:14px; margin:6px 6px 0 0;
 }
 
 /* BUTTON */
 .btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: #1d4ed8;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.3s;
+  display:inline-block; margin-top:20px; padding:12px 25px;
+  background:#1d4ed8; color:white; border-radius:6px; font-weight:500;
+  transition:0.3s;
 }
-
-.btn:hover {
-    background: #0f172a;
-}
+.btn:hover {background:#0f172a;}
 
 /* FOOTER */
-footer {
-    background: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 60px;
-    font-size: 14px;
-}
+footer {background:#0f172a; color:white; text-align:center; padding:25px; margin-top:60px; font-size:14px;}
 
-@media(max-width:768px) {
-    .hero h2 {
-        font-size: 28px;
-    }
+/* Responsive */
+@media(max-width:768px){
+  .hero h2{font-size:28px;}
 }
 </style>
 </head>
 
 <body>
 
+<!-- NAV -->
 <nav>
-    <h1>Shinn</h1>
-    <a href="/relationship/">Relationship</a>
+  <h1>Shinn</h1>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
-    <h2>Aspiring Cloud & DevOps Engineer</h2>
-    <p>
-        Diploma in Information Technology graduate from Singapore Polytechnic.
-        Former intern with experience in C#, .NET, React and Java.
-        Now focused on Cloud Infrastructure, Automation and DevOps Engineering.
-    </p>
+  <h2>Cloud & DevOps Learner</h2>
+  <p>Currently exploring Cloud Computing, Linux, servers, automation, and CI/CD.  
+  Learning by doing, building practical skills for a future career in DevOps and Cloud Engineering.</p>
 </section>
 
+<!-- ABOUT ME -->
 <section class="section">
-    <h3>About Me</h3>
-    <div class="grid">
-        <div class="card">
-            <h4>Background</h4>
-            <p>
-                I completed my internship working with C# and .NET,
-                building practical software solutions and learning real-world development workflows.
-            </p>
-        </div>
-
-        <div class="card">
-            <h4>Technical Stack</h4>
-            <div class="skills">
-                <span>C#</span>
-                <span>.NET</span>
-                <span>React.js</span>
-                <span>Java</span>
-                <span>JavaScript</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <h4>Current Focus</h4>
-            <p>
-                Deep diving into Cloud Computing and DevOps practices —
-                learning Docker, CI/CD pipelines, Linux systems, and Azure fundamentals.
-            </p>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <h3>Future Goals</h3>
+  <h3>About Me</h3>
+  <div class="grid">
     <div class="card">
-        <p>
-            My goal is to become a Cloud Engineer capable of designing scalable,
-            secure and automated systems. I am passionate about infrastructure,
-            system reliability and continuous deployment.
-        </p>
-        <a href="/relationship/" class="btn">View My Story</a>
+      <h4>Education & Internship</h4>
+      <p>
+        Diploma in Information Technology from Singapore Polytechnic.  
+        Completed a 1-year internship using C# and .NET, gaining hands-on software development experience.
+      </p>
     </div>
+
+    <div class="card">
+      <h4>Technical Skills</h4>
+      <div class="skills">
+        <span>C#</span>
+        <span>.NET</span>
+        <span>React.js</span>
+        <span>Java</span>
+        <span>JavaScript</span>
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>CI/CD</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h4>Current Learning</h4>
+      <p>
+        Focused on learning Cloud Computing platforms, Linux administration, servers, automation tools, and CI/CD pipelines.  
+        Passionate about building reliable and automated systems.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FUTURE GOALS -->
+<section class="section">
+  <h3>Future Goals</h3>
+  <div class="card">
+    <p>
+      To become a DevOps/Cloud Engineer capable of designing, deploying, and managing cloud infrastructure.  
+      Continuously improving skills in automation, reliability, and system security.
+    </p>
+  </div>
 </section>
 
 <footer>
-    © 2026 Shinn | Cloud & DevOps Journey
+  © 2026 Shinn | Learning Cloud & DevOps
 </footer>
 
 </body>
