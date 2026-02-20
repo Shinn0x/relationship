@@ -1,261 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Shinn | About Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Shinn | Cloud & DevOps Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f6f9;
-            color: #333;
-            text-align: center;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-        header {
-            background: #111827;
-            color: white;
-            padding: 60px 20px;
-        }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 40px;
-        }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #111;
+    line-height: 1.6;
+}
 
-        header p {
-            margin-top: 10px;
-            font-size: 18px;
-            color: #d1d5db;
-        }
+/* NAVBAR */
+nav {
+    background: #0f172a;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        section {
-            padding: 60px 20px;
-            max-width: 800px;
-            margin: auto;
-        }
+nav h1 {
+    color: white;
+    font-size: 20px;
+}
 
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        }
+nav a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 500;
+}
 
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: 0.3s;
-        }
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #0f172a, #1d4ed8);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
 
-        .btn:hover {
-            background: #1e40af;
-        }
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
 
-        footer {
-            margin-top: 60px;
-            padding: 20px;
-            background: #111827;
-            color: white;
-            font-size: 14px;
-        }
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.9;
+}
 
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
-        }
-    </style>
+/* SECTION */
+.section {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.section h3 {
+    color: #1d4ed8;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* CARD GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #1d4ed8;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin: 6px 6px 0 0;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0f172a;
+}
+
+/* FOOTER */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+@media(max-width:768px) {
+    .hero h2 {
+        font-size: 28px;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<header>
-    <h1>Hello, I'm Shinn 👋</h1>
-    <p>Welcome to my personal website</p>
-</header>
+<nav>
+    <h1>Shinn</h1>
+    <a href="/relationship/">Relationship</a>
+</nav>
 
-<section>
-    <div class="card">
-        <h2>About Me</h2>
-        <p>
-            I'm passionate about technology, creativity, and building meaningful projects.
-            This website is a space where I share my journey, experiences,
-            and the things that matter most to me.
-        </p>
+<section class="hero">
+    <h2>Aspiring Cloud & DevOps Engineer</h2>
+    <p>
+        Diploma in Information Technology graduate from Singapore Polytechnic.
+        Former intern with experience in C#, .NET, React and Java.
+        Now focused on Cloud Infrastructure, Automation and DevOps Engineering.
+    </p>
+</section>
 
-        <p>
-            I enjoy working with web development, learning new technologies,
-            and creating beautiful digital experiences.
-        </p><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Shinn | Cloud & DevOps Enthusiast</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="section">
+    <h3>About Me</h3>
+    <div class="grid">
+        <div class="card">
+            <h4>Background</h4>
+            <p>
+                I completed my internship working with C# and .NET,
+                building practical software solutions and learning real-world development workflows.
+            </p>
+        </div>
 
-    <!-- Google Font: Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <div class="card">
+            <h4>Technical Stack</h4>
+            <div class="skills">
+                <span>C#</span>
+                <span>.NET</span>
+                <span>React.js</span>
+                <span>Java</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #ffffff;
-            color: #111;
-        }
-
-        header {
-            background-color: #0f172a; /* dark navy */
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 42px;
-            font-weight: 700;
-        }
-
-        header p {
-            margin-top: 15px;
-            font-size: 18px;
-            color: #cbd5e1;
-        }
-
-        section {
-            padding: 60px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        h2 {
-            color: #1d4ed8; /* blue */
-            margin-bottom: 20px;
-        }
-
-        .card {
-            background: #f8fafc;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-            margin-bottom: 30px;
-        }
-
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .badge {
-            background-color: #1d4ed8;
-            color: white;
-            padding: 8px 14px;
-            border-radius: 20px;
-            font-size: 14px;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #1d4ed8;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 500;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background-color: #0f172a;
-        }
-
-        footer {
-            background-color: #0f172a;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 28px;
-            }
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>Hello, I'm Shinn</h1>
-    <p>Cloud & DevOps Enthusiast | Software Developer</p>
-</header>
-
-<section>
-    <div class="card">
-        <h2>About Me</h2>
-        <p>
-            I recently completed my internship and am awaiting graduation from 
-            Singapore Polytechnic with a Diploma in Information Technology (DIT).
-        </p>
-        <p>
-            I have experience in C#, .NET, Java, React.js, and JavaScript.
-            Currently, I am deeply interested in Cloud Computing and DevOps,
-            focusing on building scalable, automated, and reliable systems.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>Technical Skills</h2>
-        <div class="skills">
-            <span class="badge">C#</span>
-            <span class="badge">.NET</span>
-            <span class="badge">React.js</span>
-            <span class="badge">Java</span>
-            <span class="badge">JavaScript</span>
-            <span class="badge">Cloud Computing</span>
-            <span class="badge">DevOps</span>
+        <div class="card">
+            <h4>Current Focus</h4>
+            <p>
+                Deep diving into Cloud Computing and DevOps practices —
+                learning Docker, CI/CD pipelines, Linux systems, and Azure fundamentals.
+            </p>
         </div>
     </div>
+</section>
 
+<section class="section">
+    <h3>Future Goals</h3>
     <div class="card">
-        <h2>Current Focus</h2>
         <p>
-            I am currently learning more about:
+            My goal is to become a Cloud Engineer capable of designing scalable,
+            secure and automated systems. I am passionate about infrastructure,
+            system reliability and continuous deployment.
         </p>
-        <ul>
-            <li>☁️ Cloud platforms (AWS / Azure)</li>
-            <li>⚙️ CI/CD pipelines</li>
-            <li>🐳 Docker & containerization</li>
-            <li>📦 Infrastructure as Code</li>
-            <li>🔐 Cloud security fundamentals</li>
-        </ul>
-
         <a href="/relationship/" class="btn">View My Story</a>
     </div>
 </section>
 
 <footer>
-    © 2026 Shinn | Built with passion for Cloud & DevOps
-</footer>
-
-</body>
-</html>
-    </div>
-</section>
-
-<footer>
-    © 2026 Shinn. All rights reserved.
+    © 2026 Shinn | Cloud & DevOps Journey
 </footer>
 
 </body>
