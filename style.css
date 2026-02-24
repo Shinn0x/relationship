@@ -1,0 +1,53 @@
+/* Reset & Base */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:'Roboto', sans-serif; background:#f5f7fa; color:#111; line-height:1.6;}
+a {text-decoration:none;}
+
+/* NAVBAR */
+nav {
+  background:#0f172a; color:white; padding:15px 40px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+nav h1 {font-size:20px; font-weight:700;}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1d4ed8);
+  color:white; text-align:center; padding:100px 20px;
+}
+.hero h2 {font-size:42px; margin-bottom:15px;}
+.hero p {font-size:18px; max-width:700px; margin:auto; opacity:0.9;}
+
+/* SECTION */
+.section {max-width:1100px; margin:80px auto; padding:0 20px;}
+.section h3 {color:#1d4ed8; font-size:28px; margin-bottom:30px;}
+
+/* CARD GRID */
+.grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:30px;}
+.card {
+  background:white; padding:30px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+.card:hover {transform:translateY(-5px);}
+
+/* SKILLS BADGES */
+.skills span {
+  display:inline-block; background:#1d4ed8; color:white; padding:8px 14px;
+  border-radius:20px; font-size:14px; margin:6px 6px 0 0;
+}
+
+/* BUTTON */
+.btn {
+  display:inline-block; margin-top:20px; padding:12px 25px;
+  background:#1d4ed8; color:white; border-radius:6px; font-weight:500;
+  transition:0.3s;
+}
+.btn:hover {background:#0f172a;}
+
+/* FOOTER */
+footer {background:#0f172a; color:white; text-align:center; padding:25px; margin-top:60px; font-size:14px;}
+
+/* Responsive */
+@media(max-width:768px){
+  .hero h2{font-size:28px;}
+}
